@@ -12,5 +12,4 @@ def cube():
     return jsonify({'result': result})
 
 if __name__ == '__main__':
-    app.run(port=8081)
     app.run(debug = True,host = '0.0.0.0')
